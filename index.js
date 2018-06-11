@@ -1,7 +1,11 @@
 function theBeatlesPlay(musicians, instruments) {
   let musicianInstrumentPairing = [];
   for (let i = 0; i<musicians.length; i++) {
+<<<<<<< HEAD
     musicianInstrumentPairing.push(`${musicians[i]} plays ${instruments[i]}`);
+=======
+    musicianIntrumentPairing.push(`${musicians[i]} plays ${instruments[i]}`);
+>>>>>>> b4aa185d37fd498a8acfd77a513585de008c7e92
   }
   return musicianInstrumentPairing;
 }
